@@ -9,9 +9,9 @@
 }
 
 body {
-    background: url('../images/bg-desktop.svg');
+    background: url('../images/bg-mobile.svg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: contain;
     background-color: hsl(257, 40%, 49%);
     font-size: 1.1rem;
     color: white;
@@ -19,18 +19,30 @@ body {
     height: 100vh;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+
+    margin: 6rem;
+}
+
+#logo {
+    width: 30rem;
+
+    margin-bottom: 10rem;
+}
+
 .container {
-    width: 80%;
     display: flex;
 
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin: auto;
-    padding: 60px 0;
 }
 
 img#bg {
-    width: 60%;
+    margin-bottom: 10rem;
 }
 
 .conteudo {
@@ -40,22 +52,56 @@ img#bg {
     justify-content: space-between;
 }
 h1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 5rem;
+    text-align: center;
+
+    width: 90%;
+    margin: 0 auto 5rem;
 }
 
 section p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.8rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3.28rem;
+
+    text-align: center;
+    margin-bottom: 5rem;
 }
+
 button {
     background: #fff;
     border: none;
-    border-radius: 18px;
+    border-radius: 5rem;
 
-    width: 140px;
-    height: 38px;
+    width: 34rem;
+    height: 7rem;
 
     font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    margin: auto;
+}
+.circles {
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle {
+    position: absolute;
+
+    z-index: 10;
+
+    font-size: 8rem;
+}
+
+.icons {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.icons i {
+    font-size: 10rem;
 }
