@@ -69,7 +69,7 @@ section p {
     font-size: 1.8rem;
 
     text-align: center;
-    margin: 0 auto 1rem;
+    margin: 0 auto 2rem;
     width: 90%;
 }
 
@@ -79,11 +79,11 @@ button {
     border-radius: 5rem;
 
     width: 23rem;
-    height: 4rem;
+    height: 5rem;
 
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
-    margin: auto;
+    margin: 0 auto 2rem;
 }
 .circles {
     position: relative;
@@ -102,13 +102,14 @@ button {
 
 .icons {
     display: flex;
-
     justify-content: space-between;
+
     margin: 1rem auto 0;
+    padding: 0 8rem;
 
     width: 90%;
 }
 
 .icons i {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
