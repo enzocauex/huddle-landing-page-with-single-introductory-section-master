@@ -32,6 +32,7 @@ main {
     width: 20rem;
 
     margin-bottom: 6.5rem;
+    padding-left: 1.8rem;
 }
 
 .container {
@@ -112,4 +113,51 @@ button {
 
 .icons i {
     font-size: 2rem;
+}
+
+/* desktop version*/
+@media (min-width: 760px) {
+    body {
+        background: url('../images/bg-desktop.svg') no-repeat;
+        background-color: hsl(257, 40%, 49%);
+        background-size: contain;
+    }
+
+    main {
+        flex-direction: row;
+        margin: 4rem;
+    }
+
+    #logo {
+        position: fixed;
+
+        margin: 0;
+        padding: 0;
+
+        height: 6rem;
+    }
+
+    .container {
+        flex-direction: row;
+
+        margin-top: 14rem;
+    }
+
+    img#bg {
+        height: 40rem;
+    }
+
+    section {
+
+    }
+
+    .conteudo {
+        width: 100%
+    }
+
+    h1 {
+        text-align: initial;
+
+        margin: 0;
+    }
 }
