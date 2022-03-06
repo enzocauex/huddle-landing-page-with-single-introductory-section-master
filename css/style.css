@@ -104,12 +104,12 @@ button {
     display: flex;
     justify-content: space-between;
 
-    margin: 2rem auto 0;
-    padding: 0 8rem;
+    margin: 4rem auto 0;
+    padding: 0 9rem;
 
     width: 90%;
 }
 
 .icons i {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
