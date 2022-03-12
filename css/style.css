@@ -113,7 +113,7 @@ button {
     width: 90%;
 }
 
-.icons i {
+.icons i, .circles i {
     font-size: 2rem;
     cursor: pointer;
 }
@@ -123,7 +123,7 @@ button:hover {
     cursor: pointer;
 }
 
-.fa-brands:hover {
+.fa-brands:hover, .fa-regular:hover {
     color: #ff52c3;
     cursor: pointer;
 }
@@ -134,6 +134,8 @@ button:hover {
         background: url('../images/bg-desktop.svg') no-repeat;
         background-color: hsl(257, 40%, 49%);
         background-size: contain;
+        
+        width: 100%;
     }
 
     main {
@@ -199,9 +201,28 @@ button:hover {
         margin-top: 5rem;
     }
 
+    .circles {
+        position: absolute;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
     .icons {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+
         margin: 0;
-        padding: 0 30rem;
-        padding-right: 2rem
+        padding-right: 0rem
+    }
+
+    i {
+        margin-right: 3rem;
+    }
+
+    i:nth-child(4) {
+        margin-right: 0;
     }
 }
