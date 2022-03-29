@@ -78,6 +78,7 @@ button {
     background: #fff;
     border: none;
     border-radius: 5rem;
+    box-shadow: 0px 4px 14px 6px rgba(0,0,0,0.32);
 
     width: 23rem;
     height: 5rem;
